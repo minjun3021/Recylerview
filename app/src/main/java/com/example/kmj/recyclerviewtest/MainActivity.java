@@ -14,6 +14,11 @@ public class MainActivity extends AppCompatActivity {
     LinearLayoutManager mLayoutManager;
     RecyclerViewAdapter mAdapter;
 
+//    Adapter : 아이템에 대한 View 생성
+//    ViewHolder : 재활용 View에 대한 모든 서브 View를 관리
+//    LayoutManager : 아이템 항목 배치
+//    ItemDecoration : 아이템 항목에서 서브뷰에 대한 처리
+//    ItemAnimation : 아이템 항목 애니메이션 처리
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
